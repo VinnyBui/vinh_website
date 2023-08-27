@@ -9,7 +9,7 @@ module.exports = {
       black: '#343a40',
       purple: '#6247aa',
       light_purple: '#7251b5',
-      gray: '#adb5bd',
+      light_gray: '#e9ecef',
     },
     extend: {},
   },
