@@ -1,5 +1,5 @@
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 const About = () => {
     const [text] = useTypewriter({
@@ -24,8 +24,8 @@ const About = () => {
         </p>
         
         <div class="flex justify-center">
-            <button class="inline-flex text-white bg-purple border-0 py-2 px-6 focus:outline-none hover:bg-light_purple rounded text-lg">Button</button>
-            <button class="ml-4 inline-flex text-black bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-light_gray rounded text-lg">Button</button>
+            <a href="https://github.com/VinnyBui?tab=repositories" class="inline-flex text-white bg-purple border-0 py-2 px-6 focus:outline-none hover:bg-light_purple rounded text-lg" target="_blank" rel="noopener noreferrer"><FaGithubSquare size='2rem'/></a>
+            <a href="https://www.linkedin.com/in/vinh-bui-46b561220/" class="ml-4 inline-flex text-black bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-light_gray rounded text-lg" target="_blank" rel="noopener noreferrer"><FaLinkedin size='2rem'/></a>
         </div>
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

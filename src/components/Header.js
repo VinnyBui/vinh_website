@@ -12,7 +12,7 @@ const Header = () => {
             <a href="!#" class="header-child">Skills</a>
             <a href="!#" class="header-child">Contact</a>
         </nav>
-        <button class="inline-flex items-center bg-purple text-white border-0 py-1 px-3 focus:outline-none hover:bg-light_purple rounded text-base mt-4 md:mt-0">Resume
+        <button class="inline-flex items-center bg-purple text-white border-0 py-1 px-3 focus:outline-none hover:bg-light_purple rounded text-xl mt-4 md:mt-0">Resume
         </button>
         </div>
     </header>
